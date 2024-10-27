@@ -8,8 +8,16 @@ function App() {
         style={{
           display: "flex",
           justifyContent: "center",
-          padding: "3rem",
-          bottom: "3rem",
+          alignItems: "center",
+          gap: "1rem",
+          padding: "1rem",
+          position: "fixed",
+          bottom: "2rem",
+          left: "50%",
+          transform: "translateX(-50%)",
+          backgroundColor: "rgba(255, 255, 255, 0.2)",
+          borderRadius: "1rem",
+          boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
         }}
       >
         <div>
